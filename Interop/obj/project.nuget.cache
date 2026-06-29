@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5OQ80xHfsfHoJFTqN7lTWcQM7+YC3vuirBIx+CZOREkK+dI/m89nZksr7Udcnki3DgIVxDJOQ3h82zVGRlzWuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucas\\Work\\NET\\OfficeAutomationHub\\Interop\\Interop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.office.interop.excel\\16.0.18925.20022\\microsoft.office.interop.excel.16.0.18925.20022.nupkg.sha512"
+  ],
+  "logs": []
+}

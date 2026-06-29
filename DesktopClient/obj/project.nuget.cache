@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WE8xuCav/Ufq308s/0NaBJDCc8bVUAEAvPKIIYQFhCpaNNs8ZY73gW9ChNdmYPk9+vlmZaq6pEBnHDPaCSJmwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucas\\Work\\NET\\OfficeAutomationHub\\DesktopClient\\DesktopClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.office.interop.excel\\16.0.18925.20022\\microsoft.office.interop.excel.16.0.18925.20022.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\serilog\\4.3.1\\serilog.4.3.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

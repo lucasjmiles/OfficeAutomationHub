@@ -1,0 +1,15 @@
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\bin\Debug\net8.0\Interop.deps.json
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\bin\Debug\net8.0\Interop.dll
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\bin\Debug\net8.0\Interop.pdb
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.AssemblyInfoInputs.cache
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.AssemblyInfo.cs
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.csproj.CoreCompileInputs.cache
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.dll
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\refint\Interop.dll
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.pdb
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\ref\Interop.dll
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\bin\Debug\net8.0\Core.dll
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\bin\Debug\net8.0\Core.pdb
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.csproj.AssemblyReference.cache
+C:\Users\lucas\WORK\NET\OfficeAutomationHub\Interop\obj\Debug\net8.0\Interop.csproj.CopyComplete
