@@ -19,10 +19,16 @@ public class JobsViewModel
     public JobsViewModel()
     {
         //TODO: Load jobs from API or database
-        Jobs.Add(new JobResponse { Id = Guid.NewGuid(), FileName = "Job A", Status = JobStatus.Queued });
-        Jobs.Add(new JobResponse { Id = Guid.NewGuid(), FileName = "Job B", Status = JobStatus.InProgress });
+        // Jobs.Add(new JobResponse { Id = Guid.NewGuid(), FileName = "Job A", Status = JobStatus.Queued });
+        // Jobs.Add(new JobResponse { Id = Guid.NewGuid(), FileName = "Job B", Status = JobStatus.InProgress });
     }
     public event PropertyChangedEventHandler? PropertyChanged;
     private void OnPropertyChanged([CallerMemberName] string? name = null)
         => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
+    public void AddJob(JobResponse job)
+    {
+        Jobs.Add(job);
+        LogMessage = $"Added job: {job.FileName}";
+    }
 }

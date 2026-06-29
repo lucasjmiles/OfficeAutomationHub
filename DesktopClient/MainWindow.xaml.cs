@@ -12,6 +12,8 @@ using System.Windows.Shapes;
 namespace DesktopClient;
 
 using DesktopClient.ViewModels;
+using Core.Models.Enums;
+using Core.DTOs;
 
 public partial class MainWindow : Window
 {
@@ -21,7 +23,31 @@ public partial class MainWindow : Window
     }
     private void UploadButton_Click(object sender, RoutedEventArgs e)
     {
-        // TODO: your logic
+        // Create OpenFileDialog 
+        Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
+
+        // Set filter for file extension and default file extension 
+        dlg.DefaultExt = ".png";
+        dlg.Filter = "JPEG Files (*.jpeg)|*.jpeg|PNG Files (*.png)|*.png|JPG Files (*.jpg)|*.jpg|GIF Files (*.gif)|*.gif";
+
+        // Display OpenFileDialog by calling ShowDialog method 
+        Nullable<bool> result = dlg.ShowDialog();
+
+        // Get the selected file name and display in a TextBox 
+        if (result.HasValue && result.Value)
+        {
+            // Open document 
+            string filename = dlg.FileName;
+            string fileNameOnly = System.IO.Path.GetFileName(filename);
+            JobResponse newJob = new JobResponse
+            {
+                Id = Guid.NewGuid(),
+                FileName = fileNameOnly,
+                Status = JobStatus.Pending,
+                ProgressPercentage = 0
+            };
+            ((JobsViewModel)DataContext).AddJob(newJob);
+        }
     }
     private void ProcessButton_Click(object sender, RoutedEventArgs e)
     {
