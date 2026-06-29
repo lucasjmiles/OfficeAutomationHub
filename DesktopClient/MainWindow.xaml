@@ -76,7 +76,8 @@
                  HorizontalAlignment="Stretch"
                  Width="Auto"
                  Height="25"
-                 Margin="10"/>
+                 Margin="10"
+                 Text="{Binding LogMessage}"/>
 
     </Grid>
 </Window>
