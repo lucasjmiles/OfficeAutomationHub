@@ -66,11 +66,11 @@ dotnet clean
 
 ### Run the WPF client application from the solution root
 
-dotnet run --project OfficeAutomationHub/OfficeAutomationHub.sln
+dotnet run --project DesktopClient
 
 ### Run a specific project under a defined launch profile (configured in launchSettings.json)
 
-dotnet run --project OfficeAutomationHub/OfficeAutomationHub.sln --launch-profile "Development"
+dotnet run --project DesktopClient --launch-profile "Development"
 
 ---
 

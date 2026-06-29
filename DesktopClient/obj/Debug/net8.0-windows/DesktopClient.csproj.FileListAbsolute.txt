@@ -1,8 +1,3 @@
-C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient.csproj.AssemblyReference.cache
-C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient_MarkupCompile.cache
-C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient_MarkupCompile.lref
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windows\DesktopClient.exe
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windows\DesktopClient.deps.json
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windows\DesktopClient.runtimeconfig.json
@@ -18,6 +13,11 @@ C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windo
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windows\Core.pdb
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windows\Infrastructure.pdb
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\bin\Debug\net8.0-windows\Interop.pdb
+C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient.csproj.AssemblyReference.cache
+C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient_MarkupCompile.cache
+C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient_MarkupCompile.lref
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient.g.resources
 C:\Users\lucas\Work\NET\OfficeAutomationHub\DesktopClient\obj\Debug\net8.0-windows\DesktopClient.GeneratedMSBuildEditorConfig.editorconfig

@@ -13,31 +13,33 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-
-            <StackPanel Orientation="Horizontal"
-                        HorizontalAlignment="Left"
-                        Margin="10">
-                <Button x:Name="UploadButton"
-                        Content="Upload"
-                        Width="100"
-                        Height="30"
-                        Margin="5"
-                        Click="UploadButton_Click"/>
-                <Button x:Name="ProcessButton"
-                        Content="Process"
-                        Width="100"
-                        Height="30"
-                        Margin="5"
-                        Click="ProcessButton_Click"/>
-                <Button x:Name="RefreshButton"
-                        Content="Refresh"
-                        Width="100"
-                        Height="30"
-                        Margin="5"
-                        Click="RefreshButton_Click"/>
-            </StackPanel>
-
         </Grid.RowDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Margin="10"
+            Width="Auto">
+            <Button x:Name="UploadButton"
+                    Content="Upload"
+                    Width="100"
+                    Height="30"
+                    Margin="5"
+                    Click="UploadButton_Click"/>
+            <Button x:Name="ProcessButton"
+                    Content="Process"
+                    Width="100"
+                    Height="30"
+                    Margin="5"
+                    Click="ProcessButton_Click"/>
+            <Button x:Name="RefreshButton"
+                    Content="Refresh"
+                    Width="100"
+                    Height="30"
+                    Margin="5"
+                    Click="RefreshButton_Click"/>
+        </StackPanel>
 
         <DataGrid x:Name="FilesDataGrid"
                   Grid.Row="1"
@@ -69,11 +71,12 @@
         </DataGrid>
 
         <TextBox x:Name="LogTextBox"
-                 Width="200"
+                 Grid.Row="2"
+                 IsReadOnly="True"
+                 HorizontalAlignment="Stretch"
+                 Width="Auto"
                  Height="25"
-                 Margin="10"
-                 VerticalAlignment="Top"
-                 HorizontalAlignment="Left"/>
+                 Margin="10"/>
 
     </Grid>
 </Window>
