@@ -72,6 +72,8 @@ dotnet run --project OfficeAutomationHub/OfficeAutomationHub.sln
 
 dotnet run --project OfficeAutomationHub/OfficeAutomationHub.sln --launch-profile "Development"
 
+---
+
 ## 🏗 Testing and Debugging
 
 ### Run all unit and integration tests within the solution
