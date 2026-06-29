@@ -48,32 +48,32 @@ The system is split into distinct tiers to isolate unmanaged COM runtimes from m
 
 This project is built and maintained entirely using the cross-platform **.NET CLI** within Visual Studio Code. Below is a compilation of conventional commands used during development:
 
-# Restore all NuGet packages for the solution
+### Restore all NuGet packages for the solution
 
 dotnet restore
 
-# Build the solution in Debug mode
+### Build the solution in Debug mode
 
 dotnet build
 
-# Build the solution targeting Release configuration with detailed verbosity
+### Build the solution targeting Release configuration with detailed verbosity
 
 dotnet build --configuration Release -v detailed
 
-# Clean all build outputs (bin/ and obj/ folders)
+### Clean all build outputs (bin/ and obj/ folders)
 
 dotnet clean
 
-# Run the WPF client application from the solution root
+### Run the WPF client application from the solution root
 
 dotnet run --project OfficeAutomationHub/OfficeAutomationHub.sln
 
-# Run a specific project under a defined launch profile (configured in launchSettings.json)
+### Run a specific project under a defined launch profile (configured in launchSettings.json)
 
 dotnet run --project OfficeAutomationHub/OfficeAutomationHub.sln --launch-profile "Development"
 
 ## 🏗 Testing and Debugging
 
-# Run all unit and integration tests within the solution
+### Run all unit and integration tests within the solution
 
 dotnet test --logger "console;verbosity=detailed"
