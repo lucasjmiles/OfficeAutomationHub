@@ -11,13 +11,24 @@ using System.Windows.Shapes;
 
 namespace DesktopClient;
 
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
+using DesktopClient.ViewModels;
+
 public partial class MainWindow : Window
 {
     public MainWindow()
     {
-        InitializeComponent();
+        DataContext = new JobsViewModel(); // simplest MVVM
+    }
+    private void UploadButton_Click(object sender, RoutedEventArgs e)
+    {
+        // TODO: your logic
+    }
+    private void ProcessButton_Click(object sender, RoutedEventArgs e)
+    {
+        // TODO: your logic
+    }
+    private void RefreshButton_Click(object sender, RoutedEventArgs e)
+    {
+        // TODO: your logic
     }
 }

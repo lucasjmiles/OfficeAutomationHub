@@ -5,8 +5,75 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Office Automation Hub"
+        Height="450"
+        Width="800">
     <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Left"
+                        Margin="10">
+                <Button x:Name="UploadButton"
+                        Content="Upload"
+                        Width="100"
+                        Height="30"
+                        Margin="5"
+                        Click="UploadButton_Click"/>
+                <Button x:Name="ProcessButton"
+                        Content="Process"
+                        Width="100"
+                        Height="30"
+                        Margin="5"
+                        Click="ProcessButton_Click"/>
+                <Button x:Name="RefreshButton"
+                        Content="Refresh"
+                        Width="100"
+                        Height="30"
+                        Margin="5"
+                        Click="RefreshButton_Click"/>
+            </StackPanel>
+
+        </Grid.RowDefinitions>
+
+        <DataGrid x:Name="FilesDataGrid"
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  Margin="10"
+                  ItemsSource="{Binding Jobs}">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="File Name"
+                                    Binding="{Binding FileName}"
+                                    Width="*"/>
+                <DataGridTextColumn Header="Status"
+                                    Binding="{Binding Status}"
+                                    Width="*"/>
+                <DataGridTextColumn Header="Progress"
+                                    Binding="{Binding ProgressPercentage}"
+                                    Width="*"/>
+                <DataGridTextColumn Header="Created"
+                                    Binding="{Binding CreatedAt}"
+                                    Width="*"/>
+                <DataGridTextColumn Header="Started"
+                                    Binding="{Binding StartedAt}"
+                                    Width="*"/>
+                <DataGridTextColumn Header="Completed"
+                                    Binding="{Binding CompletedAt}"
+                                    Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBox x:Name="LogTextBox"
+                 Width="200"
+                 Height="25"
+                 Margin="10"
+                 VerticalAlignment="Top"
+                 HorizontalAlignment="Left"/>
 
     </Grid>
 </Window>
